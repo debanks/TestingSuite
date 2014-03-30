@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <version>0.8</version>
+    <title>Reddit API Checker Example</title>
+    <sections>
+        <section position="0">
+            <name>API</name>
+            <description>
+                Just an exmaple of a test on an API. Shows how to get XML and execute script if needed.
+            </description>
+            <location>../tests/redditTest.xml</location>
+            <execute>../php/redditTest.xml</execute>
+        </section>
+    </sections>
+    <footer>
+        <title>Reddit API Checker</title>
+        <links>
+            <link>
+                <title>Reddit</title>
+                <url>http://reddit.com</url>
+            </link>
+        </links>
+    </footer>
+</settings>
